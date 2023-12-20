@@ -1,6 +1,6 @@
 import { useNavigate } from 'react-router-dom';
-import Footer from '../../components/Footer/Footer';
-import Header from '../../components/Header/Header';
+import Footer from '../../Components/Footer/Footer';
+import Header from '../../Components/Header/Header';
 import profileIcon from '../../images/profileIconBlue.svg';
 import useLocalStorage from '../../Hooks/useLocalStorage';
 import profileSvg from '../../images/profileIcon.svg';

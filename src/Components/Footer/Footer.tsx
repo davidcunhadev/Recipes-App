@@ -3,7 +3,7 @@ import { useContext } from 'react';
 import drinkIcon from '../../images/drinkIcon.svg';
 import mealIcon from '../../images/mealIcon.svg';
 import styles from './footer.module.css';
-import { Context } from '../../context/context';
+import { Context } from '../../Context/context';
 
 type RecipeTypeSelectorProps = {
   setRecipeType: React.Dispatch<React.SetStateAction<boolean>>;

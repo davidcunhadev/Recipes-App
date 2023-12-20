@@ -1,18 +1,18 @@
 import { useContext, useEffect, useState } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { Context } from '../../context/context';
+import { Context } from '../../Context/context';
 import shareIcon from '../../images/shareIcon.svg';
 import whiteHeartIcon from '../../images/whiteHeartIcon.svg';
 import blackHeartIcon from '../../images/blackHeartIcon.svg';
-import Footer from '../../components/Footer/Footer';
+import Footer from '../../Components/Footer/Footer';
 import { DrinksType, InProgressType, MealType } from '../../types';
 import styles from './RecipeDetails.module.css';
 import useLocalStorage from '../../Hooks/useLocalStorage';
 import {
   getSixRecipes,
-} from '../../components/RecipesDetailsHelpers/RecipesDetailsHelpers';
-import Loading from '../../components/Loading/Loading';
+} from '../../Components/RecipesDetailsHelpers/RecipesDetailsHelpers';
+import Loading from '../../Components/Loading/Loading';
 
 function renderDetailsSection(detailsMap: any, isMeal: boolean) {
   return (

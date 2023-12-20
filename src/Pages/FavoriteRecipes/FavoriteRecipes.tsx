@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { NavLink } from 'react-router-dom';
-import Header from '../../components/Header/Header';
+import Header from '../../Components/Header/Header';
 import profileIcon from '../../images/profileIcon.png';
 import favoriteIcon from '../../images/favoriteIcon.png';
 import whiteHeartIcon from '../../images/whiteHeartIcon.svg';
@@ -12,7 +12,7 @@ import fastFood from '../../images/Favorites/All.svg';
 import useLocalStorage from '../../Hooks/useLocalStorage';
 import { RecipeDoneType } from '../../types';
 import styles from './FavoriteRecipes.module.css';
-import Footer from '../../components/Footer/Footer';
+import Footer from '../../Components/Footer/Footer';
 
 function FavoriteRecipes() {
   const {

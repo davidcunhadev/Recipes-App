@@ -1,7 +1,7 @@
 import { useContext, useEffect, useState } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import { DrinksType, MealType, RadioType } from '../../types';
-import { Context } from '../../context/context';
+import { Context } from '../../Context/context';
 import styles from './SearchBar.module.css';
 
 function SearchBar() {

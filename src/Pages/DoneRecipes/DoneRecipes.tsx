@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { NavLink } from 'react-router-dom';
-import Header from '../../components/Header/Header';
+import Header from '../../Components/Header/Header';
 import profileIcon from '../../images/profileIconBlue.svg';
 import doneIcon from '../../images/DoneIcon.png';
 import AllMeals from '../../images/Favorites/foods.svg';
@@ -10,7 +10,7 @@ import shareIcon from '../../images/Favorites/shareIcon.svg';
 import useLocalStorage from '../../Hooks/useLocalStorage';
 import { RecipeDoneType } from '../../types';
 import styles from './DoneRecipes.module.css';
-import Footer from '../../components/Footer/Footer';
+import Footer from '../../Components/Footer/Footer';
 
 function DoneRecipes() {
   const {

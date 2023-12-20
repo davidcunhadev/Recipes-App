@@ -1,12 +1,12 @@
 import { useContext, useEffect, useState } from 'react';
 import { useLocation, NavLink } from 'react-router-dom';
-import { Context } from '../../context/context';
-import Header from '../../components/Header/Header';
+import { Context } from '../../Context/context';
+import Header from '../../Components/Header/Header';
 import searchIcon from '../../images/searchIconBlue.svg';
 import profileIcon from '../../images/profileIconBlue.svg';
 import plateIcon from '../../images/mealIcon.svg';
 import drinkIcon from '../../images/drinkIcon.svg';
-import Footer from '../../components/Footer/Footer';
+import Footer from '../../Components/Footer/Footer';
 import styles from './Recipes.module.css';
 import allMealsImg from '../../images/ImagesPageRecipes/AllMeals.svg';
 import beefImg from '../../images/ImagesPageRecipes/beef.svg';
@@ -20,7 +20,7 @@ import allDrinksImg from '../../images/ImagesPageRecipes/AllDrinks.svg';
 import shakeImg from '../../images/ImagesPageRecipes/shake.svg';
 import otherImg from '../../images/ImagesPageRecipes/other.svg';
 import ordinaryDrinkImg from '../../images/ImagesPageRecipes/OrdinaryDrink.svg';
-import Loading from '../../components/Loading/Loading';
+import Loading from '../../Components/Loading/Loading';
 
 function Recipes() {
   const {

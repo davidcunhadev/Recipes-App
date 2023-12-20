@@ -1,4 +1,4 @@
-import RecipesCard from '../../components/RecipesCard/RecipesCard';
+import RecipesCard from '../../Components/RecipesCard/RecipesCard';
 
 function RecipeInProgress() {
   return (
