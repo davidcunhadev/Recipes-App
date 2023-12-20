@@ -1,8 +1,12 @@
 <h1 align="center"> 🍝 🍔 Recipes App 🍹🍸 </h1>
 
+<br>
+
 <p align="center">
 O Recipes App é uma aplicação web frontend focado especialmente para smartphones com o intuito de possibilitar o usuário logar para ver, buscar, filtrar, favoritar, compartilhar e acompanhar o progresso de preparação de receitas de comidas e bebidas.<br/>
 </p>
+
+<br>
 
 ## 🚀 Tecnologias
 
@@ -199,7 +203,23 @@ npm run dev
 
 <br>
 
-## Equipe de Desenvolvimento
+## 🧪 Testes
+
+A aplicação está com mais de 99% de <strong>coverage</strong> dos testes, garantindo assim uma maior segurança e confiança no código e suas respectivas funcionalidades.
+
+Para rodar todos os testes da aplicação execute o comando:
+```
+npm run test
+```
+
+Para rodar a cobertura de testes da aplicação execute o comando:
+```
+npm run coverage
+```
+
+<br>
+
+## 🎊 Equipe de Desenvolvimento
 
 <table>
   <tr>
