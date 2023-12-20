@@ -34,7 +34,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias e bibliotecas:
 
 <br>
 
-## 🪄 Funcionalidades
+## ✨ Funcionalidades
 
 As seguintes funcionalidades estão disponíveis para o usuário:
 
