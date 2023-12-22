@@ -2,9 +2,9 @@
 
 <br>
 
-<p align="center">
+<h3 align="center">
 O Recipes App é uma aplicação web frontend focado especialmente para smartphones com o intuito de possibilitar o usuário logar para ver, buscar, filtrar, favoritar, compartilhar e acompanhar o progresso de preparação de receitas de comidas e bebidas.<br/>
-</p>
+</h3>
 
 <br>
 
