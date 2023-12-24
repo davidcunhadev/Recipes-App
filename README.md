@@ -77,6 +77,9 @@ npm install
 ```
 npm run dev
 ```
+
+5. Com isso a aplicação já estará no ar no <a href="http://localhost:3000/" target="_blank"> localhost:3000 </a>.
+
 <br>
 
 ## 🔀 Rotas da Aplicação
